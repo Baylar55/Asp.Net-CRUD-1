@@ -15,7 +15,7 @@ namespace PurpleBuzz_Backend.Models
         
         public string Title { get; set; }
         
-        public ICollection<CategoryComponent> CategoryComponents;
+        public ICollection<CategoryComponent> CategoryComponents { get; set; }
 
     }
 }
